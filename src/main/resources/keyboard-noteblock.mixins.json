@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "package": "io.rensatopc.github.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "NoteBlockMixin"
+  ],
+  "client": [
+    "ClientMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
